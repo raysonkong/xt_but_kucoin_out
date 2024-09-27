@@ -55,7 +55,7 @@ coins = response.json()["result"]
 
 result = []
 for coin in coins:
-    result.append("xt:" + coin['s'].replace('_', ''))
+    result.append("Kucoin:" + coin['s'].replace('_', ''))
 
 #print(result)
 
@@ -119,7 +119,7 @@ def run_srapper():
     output_to_text_file(grouped_pairs)
 
 
-    print("== XT_Normall All Tickers Retrieved ==")
+    print("== XT_But_Kucoin_Output All Tickers Retrieved ==")
     print('\n')
     #print("======================================================")
 if __name__ =='__main__':
